@@ -1,5 +1,4 @@
 import React from 'react';
-//import imagemMenu from '../image/giant.jpg';
 import '../css/Navegation.css';
 import { Navbar,Nav, NavDropdown} from 'react-bootstrap';
 
@@ -38,7 +37,7 @@ export default function Navegation() {
                 </NavDropdown>
                 </Nav>
                 <Nav>
-                <Nav.Link href="#deets">More deets</Nav.Link>
+                <Nav.Link href="#deets">Encontros</Nav.Link>
                 <Nav.Link eventKey={2} href="#memes">
                     F
                 </Nav.Link>
