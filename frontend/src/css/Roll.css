@@ -3,8 +3,8 @@
     box-shadow: 10vh 10vh 10vh 10vh rgb(red);
     
 }
-.jumbotron {
-    background-image: url('../image/giant.jpg');
+.jbt-roll{    
+    background-image: url('../image/giant.jpg');    
     background-size: cover;
     background-repeat: no-repeat,repeat ;
     background-position: center;
@@ -12,7 +12,12 @@
     color: rgb(55, 182, 255);    
     border-radius: 3vh;
 }
-h1 {
+/*
+.jumbotron #jbtroll{
+    background-image: url('../image/giant.jpg');
+}
+*/
+h1,h2,h3 {
     /*text-shadow: 2px 3px 5px black;*/  /*Degradê sem borda*/
     text-shadow: -1px 0 5px black, 0 1px 5px black, 1px 0 5px black, 0 -1px 5px black; /*Degradê com borda*/ 
   }
