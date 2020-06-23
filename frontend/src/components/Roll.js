@@ -1,5 +1,3 @@
-//import imagemMenu from '../image/giant.jpg';
-
 import React from 'react';
 import '../css/Roll.css';
 import { Jumbotron, Button} from 'react-bootstrap';

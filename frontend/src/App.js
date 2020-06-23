@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navegation from './components/Navegation';
 import Roll from './components/Roll';
 import Lore from './components/Lore' ;
+import Rule from './components/Rule';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Navegation/> 
       <Roll/>
       <Lore/>
+      <Rule/>
 
     
     
