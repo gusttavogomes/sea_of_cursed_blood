@@ -1,0 +1,36 @@
+.jbt-gameplay-rule{
+    background-image: url('../image/dark-wood1.jpg');
+    color: white;
+    /*
+    background-size: cover;
+    background-repeat: no-repeat,repeat ;
+    background-position: center;
+    padding: 10vh;  
+    border-radius: 3vh;    
+    */
+}
+h1,h2,h3 {
+    /*text-shadow: 2px 3px 5px black;*/  /*Degradê sem borda*/
+    text-shadow: -1px 0 5px black, 0 1px 5px black, 1px 0 5px black, 0 -1px 5px black; /*Degradê com borda*/ 
+  }
+p {
+    /*text-shadow: 1px 1px 2px black;*/ /*Degradê sem borda*/
+    text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;   /*Degradê com borda*/
+}
+.buttonLink{
+    color: rgb(55, 182, 255);
+    text-shadow: 1px 1px 2px black; 
+    border-color: rgb(55, 182, 255);
+}
+.button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(55, 182, 255);    
+    border-color: rgb(55, 182, 255);
+
+    text-shadow: none; /*Como tira a sombra no hover*/
+    
+}
+.button:hover{   
+    text-shadow: none; /*Como tira a sombra no hover? */
+    
+}
