@@ -18,7 +18,7 @@ export default function Navegation() {
                     <NavDropdown.Item href="/rules">Mecânicas dos oficiais</NavDropdown.Item>
                 </NavDropdown>
                 
-                <Nav.Link href="#player-character">Player Character (PC's)</Nav.Link>
+                <Nav.Link href="/player-character">Player Character (PC's)</Nav.Link>
                 <NavDropdown title="NPC's" id="collasible-nav-dropdown">
                     <NavDropdown.Item href="#action/3.1">Kingdon of Shirstan</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.2">Kingdon of Wasins</NavDropdown.Item> 
