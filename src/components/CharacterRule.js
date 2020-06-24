@@ -14,7 +14,7 @@ export default function CharacterRule() {
                         </p>                    
                     <h2>Classes Liberadas</h2>
                         <p>
-                        As 12 classes das Regras Básicas e do Livro do Jogador estão liberadas, assim como a de <i>Eberron - Riding from the Last War</i>, totalizando: <i>Artificer, Barbarian, Bard, Cleric, Druid, Fighter, Monk, Paladin, Ranger, Rogue, Sorcerer, Warlock</i> e <i>Wizard </i>. <i>Blood Hunter</i> pode ser liberado de acordo com a vontade do Mestre. As subclasses estão todas liberadas dos principais livros oficiais. Eventuais suplementos oficiais podem ser incluidos, mas depende de cada Mestre aprovar ou não.
+                        As 12 classes das Regras Básicas e do Livro do Jogador estão liberadas, assim como a de <i>Eberron - Rising from the Last War</i>, totalizando: <i>Artificer, Barbarian, Bard, Cleric, Druid, Fighter, Monk, Paladin, Ranger, Rogue, Sorcerer, Warlock</i> e <i>Wizard </i>. <i>Blood Hunter</i> pode ser liberado de acordo com a vontade do Mestre. As subclasses estão todas liberadas dos principais livros oficiais. Eventuais suplementos oficiais podem ser incluidos, mas depende de cada Mestre aprovar ou não.
                         </p>                           
                 </Jumbotron>
             </div>            

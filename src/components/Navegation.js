@@ -6,16 +6,16 @@ export default function Navegation() {
     return(
         <div id='navegation'> 
             <Navbar collapseOnSelect expand="lg" className="color-nav" variant="dark">
-            <Navbar.Brand href="#home">Sea of Cursed Blood</Navbar.Brand>
+            <Navbar.Brand href="/">Sea of Cursed Blood</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                <Nav.Link href="#cenario">Cenário</Nav.Link>
+                <Nav.Link href="/history" >Cenário</Nav.Link>
                 <NavDropdown title="Regras" id="collasible-nav-dropdown-cenario">
-                    <NavDropdown.Item href="#action/1.1">Criação de PC's</NavDropdown.Item>
+                    <NavDropdown.Item href="/rules">Criação de PC's</NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/1.2">Gerenciamento do Navio</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/1.3">Mecânicas dos oficiais</NavDropdown.Item>
+                    <NavDropdown.Item href="/rules">Gerenciamento do Navio</NavDropdown.Item>
+                    <NavDropdown.Item href="/rules">Mecânicas dos oficiais</NavDropdown.Item>
                 </NavDropdown>
                 
                 <Nav.Link href="#player-character">Player Character (PC's)</Nav.Link>
