@@ -3,7 +3,7 @@
     box-shadow: 10vh 10vh 10vh 10vh rgb(red);
     
 }
-.jbt-roll{    
+.jbt-presentation{    
     background-image: url('../image/giant.jpg');    
     background-size: cover;
     background-repeat: no-repeat,repeat ;
@@ -13,7 +13,7 @@
     border-radius: 3vh;
 }
 /*
-.jumbotron #jbtroll{
+.jumbotron #jbtpresentation{
     background-image: url('../image/giant.jpg');
 }
 */

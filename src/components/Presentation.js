@@ -1,12 +1,12 @@
 import React from 'react';
-import '../css/Roll.css';
+import '../css/Presentation.css';
 import { Jumbotron, Button} from 'react-bootstrap';
 
-export default function Roll() {
+export default function presentation() {
     return(
-        <div id='roll'> 
+        <div id='presentation'> 
             <div className="container">
-                <Jumbotron className="jbt-roll">
+                <Jumbotron className="jbt-presentation">
                     <h1>Sea Of Cursed Blood</h1>
                     <p>
                         Uma campanha <i>sandbox</i> de <i>Dungeons & Dragons 5e</i>, baseada na temática de exploração naval
@@ -15,7 +15,7 @@ export default function Roll() {
                         contra tudo e todos.
                     </p>
                     <p>
-                        <Button variant="outline-light" className="buttonLink" >Roll20 da campanha</Button>
+                        <Button variant="outline-light" className="buttonLink" >Link da campanha no D&D Beyond</Button>
                     </p>
                 </Jumbotron>
             </div>
