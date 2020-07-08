@@ -1,11 +1,18 @@
 import React from 'react';
 import '../css/GameplayRule.css';
 import { Jumbotron, Button} from 'react-bootstrap';
-import MyVerticallyCenteredModal from './ClassFeature.js'
+
+import PopUpContramestre from './ClassFeature.js'; //check later
+
+import ModalCapitao from './ClassFeatureCapitao.js'
+import ModalImediato from './ClassFeatureImediato.js'
 
 export default function CharacterRule() {
     
+    
     const [modalShow, setModalShow] = React.useState(false);
+
+    
 
     return(
         <div id='rule'> 
@@ -21,18 +28,22 @@ export default function CharacterRule() {
                     <h2>Capitão</h2>
                         <p>O capitão emite ordens. Os melhores capitães possuem altos valores de Inteligência e Carisma, bem como proficiência com veículos aquáticos e nas perícias Persuasão e Intimidação.</p>  
                     <Button variant="outline-light" onClick={() => setModalShow(true)}>Ver habilidades de Capitão</Button>   
-                    <MyVerticallyCenteredModal
+                    <ModalCapitao
                         show={modalShow}
                         onHide={() => setModalShow(false)}
                     />
                     
                     <h2>Imediato</h2>
                         <p>Este especialista mantém a moral da tripulação alta ao prover supervisão de perto, encorajamento e disciplina. Um imediato se beneficia de um alto valor de Carisma, bem como proficiência nas perícias Intimidação e Persuasão.</p> 
-                    <Button variant="outline-light">Ver habilidades de Imediato</Button>  
+                    <Button variant="outline-light" onClick={() => setModalShow(true)}>Ver habilidades de Imediato</Button> 
+                    <ModalImediato
+                        show={modalShow}
+                        onHide={() => setModalShow(false)}
+                    /> 
                     
                     <h2>Contramestre</h2>
                         <p>O Contramestre (também conhecido como pequeno oficial) provê conselhos técnicos para o capitão e os tripulantes e lidera os esforços de reparo e manutenção. Um bom contramestre possui um grande valor de atributo em Força, bem como proficiência com ferramentas de carpinteiro e na perícia Atletismo.</p>  
-                    <Button variant="outline-light">Ver habilidades de Contramestre</Button>  
+                    <PopUpContramestre/>   
                     
                     <h2>Quartel-Mestre</h2>
                         <p>O Quartel-Mestre traça o curso do navio, confiando em conhecimentos de mapas náuticos e no estudo do clima e das condições do mar. Um quartel-mestre confiável tende a possuir um valor alto de Sabedoria, bem como proficiência nas ferramentas de navegador e na perícia Natureza.</p>  
