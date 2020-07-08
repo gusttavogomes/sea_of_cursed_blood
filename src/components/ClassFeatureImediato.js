@@ -1,21 +1,10 @@
 import React from 'react';
 import '../css/ClassFeature.css';
-import { Modal, Button } from 'react-bootstrap';
+import { Popover , Button, OverlayTrigger } from 'react-bootstrap';
 
-export default function ModalImediato(props) {
-    return (
-      <Modal
-        {...props}
-        size="lg"
-        aria-labelledby="contained-modal-title-imediato"
-        centered
-      >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-imediato">
-          Imediato
-        </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
+const popover = (
+  <Popover id="popover-basic">    
+    <Popover.Content>
           <h4>Aumentar a moral</h4>
           <p id='descricao_habilidade'>
             O Imediato pode gerir o tempo de tripulação para garantir pausas
@@ -33,11 +22,15 @@ export default function ModalImediato(props) {
             fazer um teste de sabedoria ou será pego pelo efeito. O teste pode ser repetido no final
             do próximo turno da criatura afetada.
           </p>          
-        </Modal.Body>
-        
-        <Modal.Footer>
-          <Button onClick={props.onHide}>Fechar</Button>
-        </Modal.Footer>
-      </Modal>
-    );
-  }
+          </Popover.Content>
+  </Popover>
+); 
+
+export default function PopUpImediato() {
+  return (
+    <OverlayTrigger trigger="click" placement="top" overlay={popover}>
+      <Button variant="outline-light">Ver habilidades de Imediato</Button>
+    </OverlayTrigger>
+    
+  );
+}

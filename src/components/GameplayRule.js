@@ -2,18 +2,12 @@ import React from 'react';
 import '../css/GameplayRule.css';
 import { Jumbotron, Button} from 'react-bootstrap';
 
-import PopUpContramestre from './ClassFeature.js'; //check later
+import PopUpContramestre from './ClassFeatureContramestre.js'; //check later
 
-import ModalCapitao from './ClassFeatureCapitao.js'
-import ModalImediato from './ClassFeatureImediato.js'
+import PopUpImediato from './ClassFeatureImediato.js';
+import PopUpCapitao from './ClassFeatureCapitao.js';
 
-export default function CharacterRule() {
-    
-    
-    const [modalShow, setModalShow] = React.useState(false);
-
-    
-
+export default function CharacterRule() { 
     return(
         <div id='rule'> 
             <div className="container">
@@ -26,20 +20,12 @@ export default function CharacterRule() {
                     <p> Para comandar o navio na aventura, é necessário uma hieraquia de comando e funções e responsabilidades designadas a certas pessoas sendo os principais dessa estrutura os Oficiais. São ao todo seis oficiais: <b> Capitão, Imediato, Contramestre, Quartel-Mestre, Cirurgião e Cozinheiro</b>. Além da tribulação normal que varia de acordo com o navio é necessário que se tenha tais oficiais para que a campanha funcione melhor. Claro que se não tiver jogadores suficientes, tais cargos podem ser substituídos por NPC's. Cada oficial tem habilidades habilidades para o combate ou fora dele, alguns com mais que os outros, mas nada impede do Mestre alterar tais habilidades ou adicionar novas. A seguir são descrito as funções básicas de cada oficial e nos botões expandem as informações mostrando as habilidades de cada oficial e as informações sobre cada uma dessa mecânicas.</p>
                     
                     <h2>Capitão</h2>
-                        <p>O capitão emite ordens. Os melhores capitães possuem altos valores de Inteligência e Carisma, bem como proficiência com veículos aquáticos e nas perícias Persuasão e Intimidação.</p>  
-                    <Button variant="outline-light" onClick={() => setModalShow(true)}>Ver habilidades de Capitão</Button>   
-                    <ModalCapitao
-                        show={modalShow}
-                        onHide={() => setModalShow(false)}
-                    />
+                        <p>O capitão emite ordens. Os melhores capitães possuem altos valores de Inteligência e Carisma, bem como proficiência com veículos aquáticos e nas perícias Persuasão e Intimidação.</p>                        
+                    <PopUpCapitao/>
                     
                     <h2>Imediato</h2>
                         <p>Este especialista mantém a moral da tripulação alta ao prover supervisão de perto, encorajamento e disciplina. Um imediato se beneficia de um alto valor de Carisma, bem como proficiência nas perícias Intimidação e Persuasão.</p> 
-                    <Button variant="outline-light" onClick={() => setModalShow(true)}>Ver habilidades de Imediato</Button> 
-                    <ModalImediato
-                        show={modalShow}
-                        onHide={() => setModalShow(false)}
-                    /> 
+                    <PopUpImediato/>
                     
                     <h2>Contramestre</h2>
                         <p>O Contramestre (também conhecido como pequeno oficial) provê conselhos técnicos para o capitão e os tripulantes e lidera os esforços de reparo e manutenção. Um bom contramestre possui um grande valor de atributo em Força, bem como proficiência com ferramentas de carpinteiro e na perícia Atletismo.</p>  

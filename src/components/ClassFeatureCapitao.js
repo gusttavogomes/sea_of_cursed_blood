@@ -1,21 +1,10 @@
 import React from 'react';
 import '../css/ClassFeature.css';
-import { Modal, Button } from 'react-bootstrap';
+import { Popover , Button, OverlayTrigger } from 'react-bootstrap';
 
-export default function ModalCapitao(props) {
-  return (
-    <Modal
-      {...props}
-      size="lg"
-      aria-labelledby="contained-modal-title-capitao"
-      centered
-    >
-    <Modal.Header closeButton>
-      <Modal.Title id="contained-modal-title-capitao">
-        Capitão
-      </Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
+const popover = (
+  <Popover id="popover-basic">    
+    <Popover.Content>
         <h4>Explorador nato</h4>
         <p id='descricao_habilidade'>
           O capitão pode dar ou usar um bônus de +5 em testes de
@@ -41,13 +30,15 @@ export default function ModalCapitao(props) {
           15 pés dele possam gastar suas reações para realizar uma ataque em uma criatura que
           o capitão desejar. A habilidade recarrega com um <i>roll</i> de 5 ou 6 no D6.
         </p>
-      </Modal.Body>
-      
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Fechar</Button>
-      </Modal.Footer>
-    </Modal>
+        </Popover.Content>
+  </Popover>
+); 
+
+export default function PopUpCapitão() {
+  return (
+    <OverlayTrigger trigger="click" placement="top" overlay={popover}>
+      <Button variant="outline-light">Ver habilidades de Capitão</Button>
+    </OverlayTrigger>
+    
   );
 }
-  
-
