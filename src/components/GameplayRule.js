@@ -2,10 +2,12 @@ import React from 'react';
 import '../css/GameplayRule.css';
 import { Jumbotron, Button} from 'react-bootstrap';
 
-//import PopUpContramestre from './ClassFeatureContramestre.js'; //check later
 
-//import PopUpImediato from './ClassFeatureImediato.js';
-//import PopUpCapitao from './ClassFeatureCapitao.js';
+
+
+import ClassFeatureCapitao from './ClassFeatureCapitao.js';
+import ClassFeatureImediato from './ClassFeatureImediato.js';
+import ClassFeatureContramestre from './ClassFeatureContramestre.js'; 
 import ClassFeatureCirurgiao from './ClassFeatureCirurgiao.js';
 
 export default function CharacterRule() { 
@@ -44,12 +46,14 @@ export default function CharacterRule() {
                         <p>O cozinheiro de um navio trabalha com os limitados ingredientes a bordo de um navio para fazer alimentos. Um cozinheiro habilidoso mantém a moral da tripulação em boa forma, enquanto que um cozinheiro ruim diminui o desempenho de toda a tripulação. Um cozinheiro talentoso tem valores de Sabedoria e destreza altos, bem como proficiências em suprimentos de cervejeiro e utensílios de cozinha.</p>  
                     <Button variant="outline-light">Ver habilidades de Cozinheiro</Button> 
 
+                    <ClassFeatureCapitao/>
+                    <ClassFeatureImediato/>
+                    <ClassFeatureContramestre/>
+
                     <ClassFeatureCirurgiao/>
 
                 </Jumbotron>
-            </div>
-            
-        </div>
-        
+            </div>            
+        </div>        
     );
 }
