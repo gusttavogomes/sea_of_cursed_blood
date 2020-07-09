@@ -3,7 +3,7 @@ import React from 'react';
 export default function ClassFeatureImediato() {
   return(
       <div>
-        <h2>Imediato</h2>
+        <h1>Imediato</h1>
           <h3>Aumentar a moral</h3>
           <p>
             O Imediato pode gerir o tempo de tripulação para garantir pausas

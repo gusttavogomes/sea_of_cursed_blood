@@ -3,7 +3,7 @@ import React from 'react';
 export default function ClassFeatureCapitao() {
   return(
       <div> 
-        <h2>Capitão</h2>
+        <h1>Capitão</h1>
         <h3>Explorador nato</h3>
         <p>
           O capitão pode dar ou usar um bônus de +5 em testes de

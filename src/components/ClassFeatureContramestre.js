@@ -3,7 +3,7 @@ import React from 'react';
 export default function ClassFeatureContramestre() {
   return(
     <div>
-      <h2>Contramestre</h2>
+      <h1>Contramestre</h1>
         <h3>Reparar</h3>
           <p>
             O capitão com sua ação bônus pode fazer com os tripulantes há

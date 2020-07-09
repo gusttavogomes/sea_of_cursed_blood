@@ -5,7 +5,7 @@ import potion from'../image/potion_of_healing.png';
 export default function ClassFeatureCirurgiao() {
     return(
         <div> 
-            <h2>Cirurgião</h2>
+            <h1>Cirurgião</h1>
             <h3>Fabricando kit médico</h3>
             <p>
             Para construir um kit-médico basta ter os itens que
@@ -30,7 +30,7 @@ export default function ClassFeatureCirurgiao() {
                     <tr>
                         <td><i>Healing</i></td>
                         <td>2d4 + 2</td>
-                        <td>***</td>
+                        <td>-</td>
                         <td>2H</td>
                         <td>25</td>
                     </tr>

@@ -8,7 +8,9 @@ import { Jumbotron, Button} from 'react-bootstrap';
 import ClassFeatureCapitao from './ClassFeatureCapitao.js';
 import ClassFeatureImediato from './ClassFeatureImediato.js';
 import ClassFeatureContramestre from './ClassFeatureContramestre.js'; 
+import ClassFeatureQuartelMestre from './ClassFeatureQuartelMestre.js'; 
 import ClassFeatureCirurgiao from './ClassFeatureCirurgiao.js';
+import ClassFeatureCozinheiro from './ClassFeatureCozinheiro.js'; 
 
 export default function CharacterRule() { 
     return(
@@ -46,11 +48,15 @@ export default function CharacterRule() {
                         <p>O cozinheiro de um navio trabalha com os limitados ingredientes a bordo de um navio para fazer alimentos. Um cozinheiro habilidoso mantém a moral da tripulação em boa forma, enquanto que um cozinheiro ruim diminui o desempenho de toda a tripulação. Um cozinheiro talentoso tem valores de Sabedoria e destreza altos, bem como proficiências em suprimentos de cervejeiro e utensílios de cozinha.</p>  
                     <Button variant="outline-light">Ver habilidades de Cozinheiro</Button> 
 
+                    </Jumbotron>
+                    <Jumbotron className="jbt-gameplay-rule">
+                        
                     <ClassFeatureCapitao/>
                     <ClassFeatureImediato/>
                     <ClassFeatureContramestre/>
-
+                    <ClassFeatureQuartelMestre/>
                     <ClassFeatureCirurgiao/>
+                    <ClassFeatureCozinheiro/>
 
                 </Jumbotron>
             </div>            

@@ -9,9 +9,10 @@
     border-radius: 3vh;    
     */
 }
-h1,h2,h3 {
+h1, h2, h3, h4 {
     /*text-shadow: 2px 3px 5px black;*/  /*Degradê sem borda*/
     text-shadow: -1px 0 5px black, 0 1px 5px black, 1px 0 5px black, 0 -1px 5px black; /*Degradê com borda*/ 
+    padding-top: 1vh;
   }
 p {
     /*text-shadow: 1px 1px 2px black;*/ /*Degradê sem borda*/
@@ -31,7 +32,4 @@ p {
     text-shadow: none; /*Como tira a sombra no hover*/
     
 }
-.button:hover{   
-    text-shadow: none; /*Como tira a sombra no hover? */
-    
-}
+
