@@ -2,10 +2,11 @@ import React from 'react';
 import '../css/GameplayRule.css';
 import { Jumbotron, Button} from 'react-bootstrap';
 
-import PopUpContramestre from './ClassFeatureContramestre.js'; //check later
+//import PopUpContramestre from './ClassFeatureContramestre.js'; //check later
 
-import PopUpImediato from './ClassFeatureImediato.js';
-import PopUpCapitao from './ClassFeatureCapitao.js';
+//import PopUpImediato from './ClassFeatureImediato.js';
+//import PopUpCapitao from './ClassFeatureCapitao.js';
+import ClassFeatureCirurgiao from './ClassFeatureCirurgiao.js';
 
 export default function CharacterRule() { 
     return(
@@ -21,15 +22,15 @@ export default function CharacterRule() {
                     
                     <h2>Capitão</h2>
                         <p>O capitão emite ordens. Os melhores capitães possuem altos valores de Inteligência e Carisma, bem como proficiência com veículos aquáticos e nas perícias Persuasão e Intimidação.</p>                        
-                    <PopUpCapitao/>
+                    <Button variant="outline-light">Ver habilidades de Capitão</Button> 
                     
                     <h2>Imediato</h2>
                         <p>Este especialista mantém a moral da tripulação alta ao prover supervisão de perto, encorajamento e disciplina. Um imediato se beneficia de um alto valor de Carisma, bem como proficiência nas perícias Intimidação e Persuasão.</p> 
-                    <PopUpImediato/>
+                    <Button variant="outline-light">Ver habilidades de Imediato</Button> 
                     
                     <h2>Contramestre</h2>
                         <p>O Contramestre (também conhecido como pequeno oficial) provê conselhos técnicos para o capitão e os tripulantes e lidera os esforços de reparo e manutenção. Um bom contramestre possui um grande valor de atributo em Força, bem como proficiência com ferramentas de carpinteiro e na perícia Atletismo.</p>  
-                    <PopUpContramestre/>   
+                    <Button variant="outline-light">Ver habilidades de Contramestre</Button> 
                     
                     <h2>Quartel-Mestre</h2>
                         <p>O Quartel-Mestre traça o curso do navio, confiando em conhecimentos de mapas náuticos e no estudo do clima e das condições do mar. Um quartel-mestre confiável tende a possuir um valor alto de Sabedoria, bem como proficiência nas ferramentas de navegador e na perícia Natureza.</p>  
@@ -41,7 +42,10 @@ export default function CharacterRule() {
                     
                     <h2>Cozinheiro</h2>
                         <p>O cozinheiro de um navio trabalha com os limitados ingredientes a bordo de um navio para fazer alimentos. Um cozinheiro habilidoso mantém a moral da tripulação em boa forma, enquanto que um cozinheiro ruim diminui o desempenho de toda a tripulação. Um cozinheiro talentoso tem valores de Sabedoria e destreza altos, bem como proficiências em suprimentos de cervejeiro e utensílios de cozinha.</p>  
-                    <Button variant="outline-light">Ver habilidades de Cozinheiro</Button>          
+                    <Button variant="outline-light">Ver habilidades de Cozinheiro</Button> 
+
+                    <ClassFeatureCirurgiao/>
+
                 </Jumbotron>
             </div>
             
