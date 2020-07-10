@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ClassFeatureCozinheiro() {
   return(
-      <div>
+      <div id="cozinheiro">
         <h1>Cozinheiro</h1>
           <h3>Cozinheiro habilidoso</h3>
           <p>

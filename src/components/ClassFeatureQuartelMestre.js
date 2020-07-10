@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ClassFeatureQuartelMestre() {
   return(
-      <div>
+      <div id="quartel-mestre">
         <h1>Quartel-Mestre</h1>
           <h3>Farejador de tesouros</h3>
           <p>

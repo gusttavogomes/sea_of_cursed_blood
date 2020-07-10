@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ClassFeatureImediato() {
   return(
-      <div>
+      <div id="imediato">
         <h1>Imediato</h1>
           <h3>Aumentar a moral</h3>
           <p>

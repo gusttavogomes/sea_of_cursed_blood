@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ClassFeatureContramestre() {
   return(
-    <div>
+    <div id="contramestre">
       <h1>Contramestre</h1>
         <h3>Reparar</h3>
           <p>

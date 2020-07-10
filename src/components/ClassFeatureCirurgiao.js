@@ -4,7 +4,7 @@ import potion from'../image/potion_of_healing.png';
 
 export default function ClassFeatureCirurgiao() {
     return(
-        <div> 
+        <div id="cirurgiao"> 
             <h1>Cirurgião</h1>
             <h3>Fabricando kit médico</h3>
             <p>
