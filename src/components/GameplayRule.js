@@ -1,8 +1,8 @@
 import React from 'react';
 import '../css/GameplayRule.css';
-import { Jumbotron, Button, Nav} from 'react-bootstrap';
+import { Jumbotron, Button} from 'react-bootstrap';
 
-
+import { Link } from "react-scroll"; //https://scotch.io/tutorials/implementing-smooth-scrolling-in-react
 
 
 import ClassFeatureCapitao from './ClassFeatureCapitao.js';
@@ -26,39 +26,78 @@ export default function CharacterRule() {
                     
                     <h2>Capitão</h2>
                         <p>O capitão emite ordens. Os melhores capitães possuem altos valores de Inteligência e Carisma, bem como proficiência com veículos aquáticos e nas perícias Persuasão e Intimidação.</p>                        
-                    <Nav.Link href="#capitao">
+                    <Link 
+                        to={'capitao'}
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration= {2000}
+                    >
                         <Button variant="outline-light">Ver habilidades de Capitão</Button> 
-                    </Nav.Link>
+                    </Link>
 
                     <h2>Imediato</h2>
                         <p>Este especialista mantém a moral da tripulação alta ao prover supervisão de perto, encorajamento e disciplina. Um imediato se beneficia de um alto valor de Carisma, bem como proficiência nas perícias Intimidação e Persuasão.</p> 
-                    <Nav.Link href="#imediato">
+                    <Link 
+                        to={'imediato'}
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration= {2000}
+                    >
                         <Button variant="outline-light">Ver habilidades de Imediato</Button> 
-                    </Nav.Link>
+                    </Link>
 
                     <h2>Contramestre</h2>
                         <p>O Contramestre (também conhecido como pequeno oficial) provê conselhos técnicos para o capitão e os tripulantes e lidera os esforços de reparo e manutenção. Um bom contramestre possui um grande valor de atributo em Força, bem como proficiência com ferramentas de carpinteiro e na perícia Atletismo.</p>  
-                    <Nav.Link href="#contramestre">                    
+                    <Link 
+                        to={'contramestre'}
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration= {2000}
+                    >                    
                         <Button variant="outline-light">Ver habilidades de Contramestre</Button> 
-                    </Nav.Link>
+                    </Link>
 
                     <h2>Quartel-Mestre</h2>
                         <p>O Quartel-Mestre traça o curso do navio, confiando em conhecimentos de mapas náuticos e no estudo do clima e das condições do mar. Um quartel-mestre confiável tende a possuir um valor alto de Sabedoria, bem como proficiência nas ferramentas de navegador e na perícia Natureza.</p>  
-                    <Nav.Link href="#quartel-mestre">
+                    <Link  
+                        to={'quartel-mestre'}
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration= {2000}
+                    >
                         <Button variant="outline-light">Ver habilidades de Quartel-Mestre</Button> 
-                    </Nav.Link> 
+                    </Link> 
                    
                     <h2>Cirurgião</h2>
                         <p>O cirurgião do navio pode cuidar de machucados, impede doenças de se espalhar por todo o navio e supervisiona o saneamento. Um cirurgião capaz se beneficia de altos valores de Inteligência ou sabedoria, bem como proficiência em kits de herbalismo e na perícia Medicina.</p>  
-                    <Nav.Link href="#cirurgiao">
-                        <Button variant="outline-light">Ver habilidades de Cirurgião</Button>  
-                    </Nav.Link>
+                    
+                    <Link 
+                        to={'cirurgiao'}
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration= {2000}
+                    >
+                        <Button variant="outline-light">Ver habilidades de Cirurgião </Button>  
+                    </Link>
+                        
+                    
                     
                     <h2>Cozinheiro</h2>
                         <p>O cozinheiro de um navio trabalha com os limitados ingredientes a bordo de um navio para fazer alimentos. Um cozinheiro habilidoso mantém a moral da tripulação em boa forma, enquanto que um cozinheiro ruim diminui o desempenho de toda a tripulação. Um cozinheiro talentoso tem valores de Sabedoria e destreza altos, bem como proficiências em suprimentos de cervejeiro e utensílios de cozinha.</p>  
-                    <Nav.Link href="#cozinheiro">
+                    <Link 
+                        to={'cozinheiro'}
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration= {2000}
+                    >
                         <Button variant="outline-light">Ver habilidades de Cozinheiro</Button> 
-                    </Nav.Link>
+                    </Link>
 
                 </Jumbotron>
                 <Jumbotron className="jbt-gameplay-rule">                        
