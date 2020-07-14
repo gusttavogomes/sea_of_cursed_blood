@@ -1,0 +1,17 @@
+.jbt-player{
+    background-image: url('../image/dark-wood2.jpg');
+    /*color: white;*/
+    background-size: cover;
+    background-repeat: no-repeat,repeat ;
+    background-position: center;
+    padding: 10vh;
+    color: rgb(255, 255, 255);    
+    border-radius: 3vh;
+}
+
+
+  .color-nav{
+    background-color: black;
+}
+
+  

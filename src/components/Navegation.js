@@ -2,10 +2,12 @@ import React from 'react';
 import '../css/Navegation.css';
 import { Navbar,Nav, NavDropdown} from 'react-bootstrap';
 
+//Menu mostrando o tempo todo (fixed) ou só quando tiver no topo(sticky)?
+
 export default function Navegation() {
     return(
         <div id='navegation'> 
-            <Navbar collapseOnSelect expand="lg" className="color-nav" variant="dark">
+            <Navbar collapseOnSelect expand="lg" className="color-nav" variant="dark" >
             <Navbar.Brand href="/">Sea of Cursed Blood</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -37,7 +39,7 @@ export default function Navegation() {
                 </NavDropdown>
                 </Nav>
                 <Nav>
-                <Nav.Link href="#deets">Encontros</Nav.Link>
+                <Nav.Link href="#deets">Artistas/Artists</Nav.Link>
                 <Nav.Link eventKey={2} href="#memes">
                     F
                 </Nav.Link>
