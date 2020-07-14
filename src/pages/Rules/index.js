@@ -6,7 +6,8 @@ import Footer from '../../components/Footer';
 
 export default function Rules(){
     return (
-        <div>
+        
+        <div  >
             <Navegation/>
             <CharacterRule/>
             <GameplayRule/> 

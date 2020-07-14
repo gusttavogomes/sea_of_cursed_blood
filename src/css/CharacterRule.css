@@ -27,12 +27,6 @@ p {
 .button:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(55, 182, 255);    
-    border-color: rgb(55, 182, 255);
-
-    text-shadow: none; /*Como tira a sombra no hover*/
-    
-}
-.button:hover{   
-    text-shadow: none; /*Como tira a sombra no hover? */
-    
+    border-color: rgb(55, 182, 255);   
+    text-shadow: none; /*Como tira a sombra no hover? */    
 }

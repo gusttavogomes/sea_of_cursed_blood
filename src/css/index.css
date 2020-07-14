@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Código Original*/
+
+body {background-image: repeating-linear-gradient(rgb(17, 14, 34), rgb(0, 0, 0), rgb(46, 46, 46), rgb(17, 14, 34), rgb(0, 0, 0), rgb(46, 46, 46) ) ;}
+
+/*
+body {background-image: repeating-linear-gradient(rgb(17, 14, 34), rgb(7, 2, 36) , rgb(0, 0, 0), rgb(7, 2, 36) , rgb(17, 14, 34)) ;}
+body {background-image: repeating-linear-gradient(rgb(17, 14, 34), rgb(46, 46, 46) , rgb(0, 0, 0),  rgb(17, 14, 34)) ;}
+
+body {background-image: repeating-linear-gradient(rgb(7, 2, 36) , black, rgb(7, 2, 36) , rgb(17, 14, 34)) ;}
+body {background-image: repeating-linear-gradient(rgb(17, 14, 34),  rgb(0, 0, 0),  rgb(17, 14, 34)) ;}
+
+#rule {
+    background-image: linear-gradient(to bottom right, rgb(7, 2, 36), rgb(17, 14, 34));
+}
+*/

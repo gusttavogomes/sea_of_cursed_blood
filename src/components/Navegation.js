@@ -14,7 +14,7 @@ export default function Navegation() {
                 <Nav className="mr-auto">
                 <Nav.Link href="/history" >Cenário</Nav.Link>
                 <NavDropdown title="Regras" id="collasible-nav-dropdown-cenario">
-                    <NavDropdown.Item href="/rules#criacao-de-personagem">Criação de PC's</NavDropdown.Item>
+                    <NavDropdown.Item href="/rules">Criação de PC's</NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="/rules#gerenciamento-do-navio">Gerenciamento do Navio</NavDropdown.Item>
                     <NavDropdown.Item href="/rules#mecanicas-dos-oficiais">Mecânicas dos oficiais</NavDropdown.Item>

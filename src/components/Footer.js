@@ -10,7 +10,7 @@ export default function Footer() {
        <div>
            <Navbar collapseOnSelect expand="lg" variant="dark"  sticky="bottom" className="color-nav">
                 <Container>
-                    <Navbar.Brand href="#" >Sea Of Cursed Blood</Navbar.Brand>
+                    <Navbar.Brand href="/" >Sea Of Cursed Blood</Navbar.Brand>
                     <Link 
                         to={'navegation'}
                         spy={true}
