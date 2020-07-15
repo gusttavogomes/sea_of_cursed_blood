@@ -14,13 +14,9 @@ export default function presentation() {
                         e serem corsários do reino, ou traçar seu próprio caminho virando piratas lutando
                         contra tudo e todos.
                     </p>
-                    <p>
-                        <Button variant="outline-light" className="buttonLink" >Link da campanha no D&D Beyond</Button>
-                    </p>
+                    <Button variant="outline-info" className="buttonLink" id="link-beyond" href="https://www.dndbeyond.com" target="_blank">Link da campanha no D&D Beyond</Button>                    
                 </Jumbotron>
-            </div>
-            
-        </div>
-        
+            </div>            
+        </div>        
     );
 }

@@ -12,7 +12,7 @@ export default function Navegation() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                <Nav.Link href="/history" >Cenário</Nav.Link>
+                <Nav.Link href="/history" >História</Nav.Link>
                 <NavDropdown title="Regras" id="collasible-nav-dropdown-cenario">
                     <NavDropdown.Item href="/rules">Criação de PC's</NavDropdown.Item>
                     <NavDropdown.Divider />
@@ -21,28 +21,10 @@ export default function Navegation() {
                 </NavDropdown>
                 
                 <Nav.Link href="/player-character">Player Character (PC's)</Nav.Link>
-                <NavDropdown title="NPC's" id="collasible-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">Kingdon of Shirstan</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">Kingdon of Wasins</NavDropdown.Item> 
-                    <NavDropdown.Divider />                   
-                    <NavDropdown.Item href="#action/3.3">Rynian Empire</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.4">Velsian Empire</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.5">Westian Empire</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.6">Rynian Empire</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.7">Rale</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.8">Alteria</NavDropdown.Item>
-                    
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.9">Principality of Karith</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.10">Principality of Laconbia</NavDropdown.Item>
-                </NavDropdown>
+                
                 </Nav>
                 <Nav>
-                <Nav.Link href="#deets">Artistas/Artists</Nav.Link>
-                <Nav.Link eventKey={2} href="#memes">
-                    F
-                </Nav.Link>
+                <Nav.Link href="/art">Artistas/Artists</Nav.Link>                
                 </Nav>
             </Navbar.Collapse>
             </Navbar>

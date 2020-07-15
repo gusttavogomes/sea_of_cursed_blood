@@ -1,6 +1,5 @@
 .container {
     margin-top: 2vh;
-    box-shadow: 10vh 10vh 10vh 10vh rgb(red);
     
 }
 .jbt-presentation{    
@@ -30,7 +29,7 @@ p {
     text-shadow: 1px 1px 2px black; 
     border-color: rgb(55, 182, 255);
 }
-.button:hover{
+.buttonLink:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(55, 182, 255);    
     border-color: rgb(55, 182, 255);
@@ -38,10 +37,7 @@ p {
     text-shadow: none; /*Como tira a sombra no hover*/
     
 }
-.button:hover{   
-    text-shadow: none; /*Como tira a sombra no hover? */
-    
-}
+
 /*
 #presentation {
     background-image: linear-gradient(to bottom right, rgb(7, 2, 36), rgb(17, 14, 34));

@@ -4,7 +4,8 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Main from './pages/Main';
 import History from './pages/History';
 import Rules from './pages/Rules';
-import PlayerCharacter from './pages/PlayerCharacter'
+import PlayerCharacter from './pages/PlayerCharacter';
+import Art from './pages/Art';
 
 export default function Routes(){
     return(
@@ -14,6 +15,7 @@ export default function Routes(){
                <Route path="/history" component={History}/>
                <Route path="/rules" component={Rules}/>
                <Route path="/player-character" component={PlayerCharacter}/>
+               <Route path="/art" component={Art}/>
             </Switch>
         </BrowserRouter>
     )
