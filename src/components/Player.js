@@ -14,9 +14,11 @@ import Kevrnan from '../image/Kevrnan.png'
 
 export default function Player() {
     return(
-        <div id='player' > 
+        <div className='player-menu' > 
+            
             <Navbar collapseOnSelect expand="lg" variant="dark"  center className="color-nav"  >
-                <Container >                
+            
+                <Container >               
                     <Link 
                         to={'captain'}
                         spy={true}
@@ -24,8 +26,9 @@ export default function Player() {
                         offset={0}
                         duration= {2000}
                     >
-                        <Button variant="outline-light">Capitão</Button>
+                        <Button className="player-menu-button" variant="outline-light" size="lg" block >Capitão</Button>
                     </Link>
+                     
                 
                     <Link 
                         to={'chief-officer'}
@@ -34,8 +37,9 @@ export default function Player() {
                         offset={0}
                         duration= {2000}
                     >
-                        <Button variant="outline-light">Imediato</Button>
+                        <Button className="player-menu-button" variant="outline-light" size="lg" block>Imediato</Button>
                     </Link>
+                    
                 
                     <Link 
                         to={'bo-sun'}
@@ -44,8 +48,9 @@ export default function Player() {
                         offset={0}
                         duration= {2000}
                     >
-                        <Button variant="outline-light">Contramestre</Button>
+                        <Button className="player-menu-button" variant="outline-light" size="lg" block>Contramestre</Button>
                     </Link>
+                    
                 
                     <Link 
                         to={'quartermaster'}
@@ -54,8 +59,9 @@ export default function Player() {
                         offset={0}
                         duration= {2000}
                     >
-                        <Button variant="outline-light">Quartel-Mestre</Button>
+                        <Button className="player-menu-button" variant="outline-light" size="lg" block>Quartel-Mestre</Button>
                     </Link>
+                    
                 
                     <Link 
                         to={'surgeon'}
@@ -64,8 +70,9 @@ export default function Player() {
                         offset={0}
                         duration= {2000}
                     >
-                        <Button variant="outline-light">Cirurgião</Button>
+                        <Button className="player-menu-button" variant="outline-light" size="lg" block >Cirurgião</Button>
                     </Link>
+                    
                 
                     <Link 
                         to={'cook'}
@@ -74,17 +81,12 @@ export default function Player() {
                         offset={0}
                         duration= {2000}
                     >
-                        <Button variant="outline-light">Cozinheiro</Button>
+                        <Button className="player-menu-button" variant="outline-light" size="lg" block>Cozinheiro</Button>
                     </Link>
-                        
-                    
                 </Container>
             </Navbar>
             
             <div className="container">
-                
-                
-
                 <Jumbotron className="jbt-player">
                     <div id="captain">
                         <h1>Kroll - Capitão</h1>

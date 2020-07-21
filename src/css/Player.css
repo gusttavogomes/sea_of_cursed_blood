@@ -10,8 +10,14 @@
 }
 
 
-  .color-nav{
+.color-nav{
     background-color: black;
 }
 
-  
+.player-menu-button{
+  margin-bottom: 5px;  
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+

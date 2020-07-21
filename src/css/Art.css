@@ -42,9 +42,6 @@
     margin-right:1%;
 }
 
-
-
-
 .Image #icon-web, #icon-email, #icon-deviantart, #icon-instagram{
     width: 10vh;
     height: 10vh;
@@ -59,16 +56,9 @@
     margin-right: 1vh;
     width: 70%;
 }
-/*
-.link-art{
-    width: 100vh;
-    flex:2;
-    padding:'10';
-}
-
-*/
 #space-between-end{
     margin-bottom:10vh;
 }
+
 
 

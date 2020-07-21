@@ -1,3 +1,17 @@
 .color-nav{
     background-color: black;
 }
+
+#copyright-text{
+    text-align: center;
+    color: white;
+}
+#credit{
+    color: white;
+}
+
+.dev-credit{
+    text-align: center;
+    color: white;
+    background-color: black;
+}

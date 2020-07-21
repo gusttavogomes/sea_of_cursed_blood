@@ -16,6 +16,8 @@ import React from 'react';
 import '../css/Art.css';
 import { Container, Button} from 'react-bootstrap';
 
+import logo from "../image/skull-dice2.png";
+
 import deviantart from '../image/deviantart.png';
 import web from '../image/web.png';
 import instagram from '../image/instagram.png';
@@ -27,6 +29,7 @@ export default function Art() {
         <div id='art'> 
             <Container>
                 <div className="container-art">
+                
                     <h1>Sea of Cursed Blood</h1>
                     <p>
                         Agradecemos todos os artistas a seguir, por realizarem tais artes tão magníficas que possibilitaram que essa campanha de <i>Dungeon & Dragons</i> ganhasse uma representação visual. 
@@ -58,9 +61,17 @@ export default function Art() {
                         @silkynoire
                     </Button>  
 
-                    <p id="space-between-end"> 
+                    <p> 
                         O nosso mais sincero obrigado a esses artistas e por favor, entre no meios de comunicação desses artistas e conheçam o trabalho dele e apoie!
                     </p>  
+                    
+                    <img
+                        alt="Sea of Cursed Blood Logo"
+                        src={logo}
+                        width="105"
+                        height="150"
+                        className="d-inline-block align-top"
+                    />{' '}
 
                     <p id="space-between-end">
                         Nem todas as artes usadas, possuem identicação clara de quem foi o autor, então caso conheça, por favor entre em contato que providenciaremos a alteração no site para colocar as informações do artista. 
@@ -68,9 +79,11 @@ export default function Art() {
                         Ou caso queira que sua arte seja esposta em nosso site, sinta-se a vontade para nos enviar seu trabalho que também divulgaremos seus meios de contatos.
                     </p>
                     
-                    <Button variant="outline-light" id="email-contato" href="mailto:seaofcursedbloood@gmail.com" target="_blank">Contactar desenvolvedores</Button>
+
+                    <Button variant="outline-light" id="email-contato" href="mailto:seaofcursedblood@gmail.com" target="_blank">Contactar desenvolvedores</Button>
                     
-                    <div>Site feito por <a href="https://github.com/gusttavogomes" title="github-gusttavo">Gusttavo</a> e <a href="https://github.com/willianIF" title="github-willian">Willian</a>, fãs de <i>Dungeon & Dragons</i>, sem fins lucrativos .</div>                        
+                    
+                    
                     <div>Icons made by <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik" >Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a> </div>
                 </div>
             </Container>

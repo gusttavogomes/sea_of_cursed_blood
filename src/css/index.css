@@ -14,7 +14,23 @@ code {
 
 /* Código Original*/
 
-body {background-image: repeating-linear-gradient(rgb(17, 14, 34), rgb(0, 0, 0), rgb(46, 46, 46), rgb(17, 14, 34), rgb(0, 0, 0), rgb(46, 46, 46) ) ;}
+body {background-image: repeating-linear-gradient( rgb(46, 46, 46), rgb(17, 14, 34), rgb(0, 0, 0), rgb(17, 14, 34), rgb(0, 0, 0), rgb(46, 46, 46) ) ;}
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+h1, h2, h3, h4, h5{
+  font-family: 'Kaushan Script', cursive;
+}
+.Button{
+  font-family: 'Kaushan Script', cursive;
+}
+/*
+font-family: 'Satisfy', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Rock Salt', cursive;
+*/
 
 /*
 body {background-image: repeating-linear-gradient(rgb(17, 14, 34), rgb(7, 2, 36) , rgb(0, 0, 0), rgb(7, 2, 36) , rgb(17, 14, 34)) ;}

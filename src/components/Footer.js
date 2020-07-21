@@ -10,7 +10,8 @@ export default function Footer() {
        <div>
            <Navbar collapseOnSelect expand="lg" variant="dark"  sticky="bottom" className="color-nav">
                 <Container>
-                    <Navbar.Brand href="/" >Sea Of Cursed Blood</Navbar.Brand>
+                    <Navbar.Brand href="/" ><h3>Sea Of Cursed Blood</h3></Navbar.Brand>                    
+                    
                     <Link 
                         to={'navegation'}
                         spy={true}
@@ -18,11 +19,20 @@ export default function Footer() {
                         offset={0}
                         duration= {2000}
                     >
-                        <Button variant="outline-light">Voltar ao topo</Button>
+                        <Button variant="outline-light" size="lg">Voltar ao topo</Button>
                     </Link>
                 </Container>
-            </Navbar>
-       </div>
-        
+                
+            </Navbar> 
+            <Navbar collapseOnSelect expand="lg" variant="dark"  sticky="bottom" className="dev-credit">
+                <Container>
+                    <div id="copyright-text">
+                        &copy;{new Date().getFullYear} Sea Of Cursed Blood - Todos os Direitos Reservados
+                    </div>
+
+                    <div id="credit">Site feito por <a href="https://github.com/gusttavogomes" title="github-gusttavo">Gusttavo</a> e <a href="https://github.com/willianIF" title="github-willian">Willian</a>, sem fins lucrativos .</div>     
+                </Container>  
+            </Navbar>             
+       </div>        
     );
 }
