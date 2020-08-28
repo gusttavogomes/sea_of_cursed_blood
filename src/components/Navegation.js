@@ -3,6 +3,7 @@ import '../css/Navegation.css';
 import { Navbar,Nav, NavDropdown} from 'react-bootstrap';
 import logo from "../image/skull-dice2.png";
 
+//npm run dev = executar app no desenvolvimento
 
 
 //Menu mostrando o tempo todo (fixed) ou só quando tiver no topo(sticky)?
@@ -15,13 +16,13 @@ export default function Navegation() {
 					<img
 						alt="Sea of Cursed Blood Logo"
 						src={logo}
-						width="42"
-						height="60"
+						width="63"
+						height="90"
 						className="d-inline-block align-top"
 					/>{' '}
-						{/*Sea of Cursed Blood*/}
-						<h4 id="logo-name">Sea of Cursed Blood</h4>
 				</Navbar.Brand>
+				<Navbar.Brand href="/">Sea of Cursed Blood</Navbar.Brand>				
+				
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav className="mr-auto">
