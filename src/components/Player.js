@@ -189,8 +189,6 @@ export default function Player() {
             <div className="container">
                 <Jumbotron className="jbt-player">
                     <div id="cook">
-
-
                         <h1>Kevrnan - Cozinheiro</h1>
                         <Figure>
                             <Figure.Image
