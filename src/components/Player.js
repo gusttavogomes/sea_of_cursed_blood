@@ -120,8 +120,8 @@ export default function Player() {
                             />
                         </Figure>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum 
-                            </p> 
+                            F
+                        </p> 
                     </div>
                 </Jumbotron>
             </div>      
@@ -180,8 +180,8 @@ export default function Player() {
                             />
                         </Figure>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum 
-                            </p> 
+                            Horv Stickfeet é um jovem <i>grung</i> que vivia com sua pequena tribo nas florestas do noroeste de Shirstan. A vida pacata foi intenrropida pela guerra generalizada que levou a independência do reino. Horv foi introduzido a medicina na época e ajudou os rebeldes nas suas táticas de guerrilha, tanto em combate como dando assistência médica aos feridos das operações. No final do conflitp, Horv conheceu Kroll, um <i>tiefling</i> combatente carismático que convenceu Horv a se juntar a sua tripulação e virar um corsário pelo reino de Shirstan. 
+                        </p> 
                     </div>
                 </Jumbotron>
             </div>      
