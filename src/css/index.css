@@ -13,8 +13,8 @@ code {
 }
 
 /* Código Original*/
-
-body {background-image: repeating-linear-gradient( rgb(46, 46, 46), rgb(17, 14, 34), rgb(0, 0, 0), rgb(17, 14, 34), rgb(0, 0, 0), rgb(46, 46, 46) ) ;}
+/* gradient preto, azul e cinza body {background-image: repeating-linear-gradient( rgb(46, 46, 46), rgb(17, 14, 34), rgb(0, 0, 0), rgb(17, 14, 34), rgb(0, 0, 0), rgb(46, 46, 46) ) ;}*/
+body {background-image: linear-gradient( to bottom right, #023E8A, #0077B6, #0096C7, #00B4D8, #48CAE4) ;}
 
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');

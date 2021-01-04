@@ -13,5 +13,6 @@
 .dev-credit{
     text-align: center;
     color: white;
-    background-color: black;
+    /*background-color: black;*/
+    background-image: linear-gradient( to right, #001233, #002855);
 }

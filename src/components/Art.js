@@ -36,27 +36,27 @@ export default function Art() {
                     </p> 
 
                     <h2> Jenna <i>'jendart'</i> Lauren Drummond  </h2>
-                    <Button className="link-art" variant="outline-light"  id="link-site-jendart" href="http://jendart.com" target="_blank">
+                    <Button className="link-art" variant="primary"  id="link-site-jendart" href="http://jendart.com" target="_blank">
                         <img src={web} alt="Web Page"/>
                         <i>Web Page</i>
                     </Button>    
 
-                    <Button className="link-art" variant="outline-light"  id="link-twitter-jendart" href="https://twitter.com/jendart" target="_blank">
+                    <Button className="link-art" variant="primary"  id="link-twitter-jendart" href="https://twitter.com/jendart" target="_blank">
                         <img src={twitter} alt="twitter"/>
                         @jendart
                     </Button>   
 
-                    <Button className="link-art" variant="outline-light"  id="link-email-jendart" href="mailto:jdrummondart@gmail.com" target="_blank">
+                    <Button className="link-art" variant="primary"  id="link-email-jendart" href="mailto:jdrummondart@gmail.com" target="_blank">
                         <img src={email} alt="email"/>
                         G-mail
                     </Button>      
 
                     <h2>silkynoire </h2>
-                    <Button className="link-art" variant="outline-light" id="link-deviantart-silky" href="https://www.deviantart.com/silkynoire" target="_blank">
+                    <Button className="link-art" variant="primary" id="link-deviantart-silky" href="https://www.deviantart.com/silkynoire" target="_blank">
                         <img src={deviantart} alt="deviantart-silkynoire"/>
                         silkynoire
                     </Button>                    
-                    <Button className="link-art" variant="outline-light"  id="link-instagram-silky" href="https://www.instagram.com/silkynoire" target="_blank">
+                    <Button className="link-art" variant="primary"  id="link-instagram-silky" href="https://www.instagram.com/silkynoire" target="_blank">
                         <img src={instagram} alt="instagram-silkynoire"/>
                         @silkynoire
                     </Button>  
@@ -80,11 +80,7 @@ export default function Art() {
                     </p>
                     
 
-                    <Button variant="outline-light" id="email-contato" href="mailto:seaofcursedblood@gmail.com" target="_blank">Contactar desenvolvedores</Button>
-                    
-                    
-                    
-                    <div>Icons made by <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik" >Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a> </div>
+                    <Button variant="primary" id="email-contato" href="mailto:seaofcursedblood@gmail.com" target="_blank">Contactar desenvolvedores</Button><div><p> </p></div>
                 </div>
             </Container>
             

@@ -21,7 +21,8 @@ export default function Navegation() {
 						className="d-inline-block align-top"
 					/>{' '}
 				</Navbar.Brand>
-				<Navbar.Brand href="/">Sea of Cursed Blood</Navbar.Brand>				
+				{/*<Navbar.Brand href="/">Sea of Cursed Blood</Navbar.Brand>	*/}{/*Caso eu queira com fonte normal, descomentar*/}
+				<Navbar.Brand href="/" ><h3>Sea Of Cursed Blood</h3></Navbar.Brand> 			
 				
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse id="responsive-navbar-nav">

@@ -1,3 +1,8 @@
-.color-nav{
+/*.color-nav{
     background-color: black;
 }
+*/
+.color-nav{
+    background-image: linear-gradient( to right, #001233, #002855);
+}
+
