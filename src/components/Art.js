@@ -39,7 +39,12 @@ export default function Art() {
                     <Button className="link-art" variant="primary"  id="link-site-jendart" href="http://jendart.com" target="_blank">
                         <img src={web} alt="Web Page"/>
                         <i>Web Page</i>
-                    </Button>    
+                    </Button>   
+					
+					<Button className="link-art" variant="primary"  id="link-twitter-jendart" href="https://twitter.com/_jendart" target="_blank">
+                        <img src={twitter} alt="twitter"/>
+                        @jendart
+                    </Button>   
 
                     <Button className="link-art" variant="primary"  id="link-email-jendart" href="mailto:jdrummondart@gmail.com" target="_blank">
                         <img src={email} alt="email"/>
